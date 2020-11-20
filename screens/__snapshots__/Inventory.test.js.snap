@@ -1,0 +1,273 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Inventory /> App test against snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#ffffcc",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#2080aa",
+        "fontSize": 28,
+        "fontWeight": "bold",
+        "padding": 10,
+      }
+    }
+  >
+    UPC
+  </Text>
+  <View
+    style={
+      Object {
+        "borderColor": "#2080aa",
+        "borderRadius": 40,
+        "borderWidth": 2,
+        "marginBottom": 20,
+        "padding": 10,
+        "width": 270,
+      }
+    }
+  >
+    <View>
+      <View
+        pointerEvents="none"
+        style={
+          Array [
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 6,
+            },
+            Object {
+              "backgroundColor": "#ccfeff",
+              "borderColor": "rgba(0, 0, 0, 0.54)",
+              "borderRadius": 4,
+              "borderWidth": 1,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Object {
+            "minHeight": 64,
+            "paddingBottom": 0,
+            "paddingTop": 8,
+          }
+        }
+      >
+        <View
+          pointerEvents="none"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "opacity": 1,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+              ],
+            }
+          }
+        >
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "backgroundColor": "#ccfeff",
+                "bottom": 0,
+                "height": 2,
+                "left": 10,
+                "opacity": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 6,
+                "transform": Array [
+                  Object {
+                    "translateX": 0,
+                  },
+                ],
+                "width": 8,
+              }
+            }
+          />
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "backgroundColor": "#ccfeff",
+                "color": "transparent",
+                "fontFamily": "System",
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "left": 18,
+                "opacity": 0,
+                "paddingHorizontal": 0,
+                "position": "absolute",
+                "textAlign": "left",
+                "top": 37,
+                "transform": Array [
+                  Object {
+                    "translateX": 0,
+                  },
+                  Object {
+                    "translateY": 0,
+                  },
+                  Object {
+                    "scale": 1,
+                  },
+                  Object {
+                    "scaleY": 1,
+                  },
+                ],
+                "writingDirection": "ltr",
+              }
+            }
+          >
+            UPC
+          </Text>
+          <Text
+            numberOfLines={1}
+            onLayout={[Function]}
+            style={
+              Object {
+                "color": "#6200ee",
+                "fontFamily": "System",
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "left": 0,
+                "opacity": 0,
+                "paddingHorizontal": 14,
+                "position": "absolute",
+                "textAlign": "left",
+                "top": 36,
+                "transform": Array [
+                  Object {
+                    "translateX": 0,
+                  },
+                  Object {
+                    "translateY": 0,
+                  },
+                  Object {
+                    "scale": 1,
+                  },
+                ],
+                "writingDirection": "ltr",
+              }
+            }
+          >
+            UPC
+          </Text>
+          <Text
+            numberOfLines={1}
+            style={
+              Object {
+                "color": "rgba(0, 0, 0, 0.54)",
+                "fontFamily": "System",
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "left": 0,
+                "opacity": 0,
+                "paddingHorizontal": 14,
+                "position": "absolute",
+                "textAlign": "left",
+                "top": 36,
+                "transform": Array [
+                  Object {
+                    "translateX": 0,
+                  },
+                  Object {
+                    "translateY": 0,
+                  },
+                  Object {
+                    "scale": 1,
+                  },
+                ],
+                "writingDirection": "ltr",
+              }
+            }
+          >
+            UPC
+          </Text>
+        </View>
+        <TextInput
+          allowFontScaling={true}
+          editable={true}
+          multiline={false}
+          onBlur={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          placeholder=""
+          placeholderTextColor="rgba(0, 0, 0, 0.54)"
+          rejectResponderTermination={true}
+          selectionColor="#6200ee"
+          style={
+            Array [
+              Object {
+                "flexGrow": 1,
+                "margin": 0,
+                "paddingHorizontal": 14,
+                "textAlign": "left",
+                "zIndex": 1,
+              },
+              Object {
+                "height": 56,
+              },
+              Object {
+                "paddingBottom": 0,
+                "paddingTop": 0,
+              },
+              Object {
+                "color": "#000000",
+                "fontFamily": "System",
+                "fontSize": 18,
+                "fontWeight": "bold",
+                "textAlignVertical": "center",
+              },
+              Array [
+                Object {},
+              ],
+            ]
+          }
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+    </View>
+  </View>
+  <Text
+    allowFontScaling={false}
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "color": "#1690aa",
+          "fontSize": 90,
+        },
+        undefined,
+        Object {
+          "fontFamily": "evilicons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    
+  </Text>
+</View>
+`;

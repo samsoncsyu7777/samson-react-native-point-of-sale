@@ -1,21 +1,31 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import { StyleSheet, Text, View, Image, Button, ActivityIndicator } from "react-native";
+import { Provider as PaperProvider } from 'react-native-paper';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import Login from "./screens/Login";
+import Dashboard from "./screens/Dashboard";
+import Item from "./screens/Item";
+import theme from "./Theme";
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+
+const RootStack = createStackNavigator();
+
+export default class App extends React.Component {
+  render() {
+    return (
+      <PaperProvider theme={theme}>
+        <NavigationContainer >
+          <RootStack.Navigator>
+            <RootStack.Screen name="Login" component={Login} options={theme.headerStyle}/>
+            <RootStack.Screen name="Dashboard" component={Dashboard} options={theme.headerStyle}/>
+            <RootStack.Screen name="Item" component={Item} options={theme.headerStyle}/>
+          </RootStack.Navigator>
+        </NavigationContainer>
+      </PaperProvider>
+
+    );
+  }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
