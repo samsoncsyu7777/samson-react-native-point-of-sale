@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1605785903637" clover="3.2.0">
-  <project timestamp="1605785903637" name="All files">
-    <metrics statements="163" coveredstatements="11" conditionals="62" coveredconditionals="10" methods="51" coveredmethods="1" elements="276" coveredelements="22" complexity="0" loc="163" ncloc="163" packages="7" files="24" classes="24"/>
+<coverage generated="1606046218152" clover="3.2.0">
+  <project timestamp="1606046218152" name="All files">
+    <metrics statements="145" coveredstatements="11" conditionals="58" coveredconditionals="10" methods="46" coveredmethods="1" elements="249" coveredelements="22" complexity="0" loc="145" ncloc="145" packages="6" files="24" classes="24"/>
     <package name="react-native-Point-Of-Sale">
       <metrics statements="13" coveredstatements="3" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
       <file name="App.js" path="/Users/samsonyu/Documents/React Applications/react-native-Point-Of-Sale/App.js">
@@ -31,30 +31,6 @@
         <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="13" count="0" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
-      </file>
-    </package>
-    <package name="react-native-Point-Of-Sale.components">
-      <metrics statements="18" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="5" coveredmethods="0"/>
-      <file name="Question.js" path="/Users/samsonyu/Documents/React Applications/react-native-Point-Of-Sale/components/Question.js">
-        <metrics statements="18" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="5" coveredmethods="0"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="30" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="45" count="0" type="stmt"/>
-        <line num="49" count="0" type="stmt"/>
-        <line num="60" count="0" type="stmt"/>
-        <line num="67" count="0" type="stmt"/>
-        <line num="76" count="0" type="stmt"/>
       </file>
     </package>
     <package name="react-native-Point-Of-Sale.contexts">
@@ -244,6 +220,9 @@
         <line num="142" count="0" type="stmt"/>
         <line num="143" count="0" type="stmt"/>
         <line num="184" count="0" type="stmt"/>
+      </file>
+      <file name="Login.test2.js" path="/Users/samsonyu/Documents/React Applications/react-native-Point-Of-Sale/screens/Login.test2.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
       <file name="Logout.js" path="/Users/samsonyu/Documents/React Applications/react-native-Point-Of-Sale/screens/Logout.js">
         <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>

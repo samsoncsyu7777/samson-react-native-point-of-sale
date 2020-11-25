@@ -1,7 +1,7 @@
 
 const secret = {
 
-    URL: "https://pos-demo-api.soundpays.com"
+    URL: "http://localhost:8167"
 
 };
   

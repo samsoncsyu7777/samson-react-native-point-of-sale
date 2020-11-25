@@ -5,6 +5,7 @@ import LoginVO from '../models/VOs/LoginVO';
 import Login from "./Login";
 
 describe('<Login />', () => {
+  
   it('has 5 children', async () => {
     const tree = renderer.create(<Login />).toJSON();
     expect(tree.children.length).toBe(5);
@@ -18,7 +19,6 @@ describe('<Login />', () => {
   it('App test against snapshot', async () => {
     const tree = renderer.create(<Login />).toJSON();
     expect(tree).toMatchSnapshot();
-    console.log(tree);
   });
 
   it('View properties', async () => {

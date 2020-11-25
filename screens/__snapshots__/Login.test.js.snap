@@ -575,27 +575,7 @@ exports[`<Login /> App test against snapshot 1`] = `
   >
     0
   </Text>
-  <Text
-    allowFontScaling={false}
-    onPress={[Function]}
-    style={
-      Array [
-        Object {
-          "color": "#1690aa",
-          "fontSize": 90,
-        },
-        undefined,
-        Object {
-          "fontFamily": "evilicons",
-          "fontStyle": "normal",
-          "fontWeight": "normal",
-        },
-        Object {},
-      ]
-    }
-  >
-    
-  </Text>
+  <Text />
   <View
     accessibilityRole="progressbar"
     accessible={true}
